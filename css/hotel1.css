@@ -1,0 +1,104 @@
+
+
+.videoes{
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    width: auto;
+    z-index: -999;
+    opacity: 0.9;
+    background-size: cover;
+
+}
+.p1{
+    color: rgb(255, 255, 255);
+    margin-top: 130px;
+    text-align: center;
+}
+.p1 h2{
+    font-size: 50px;
+    text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif; 
+   font-weight: bolder;
+
+}
+.p1 p{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+button{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    font-weight: bold;
+    border: 2px solid white;
+    color: white;
+    background: transparent;
+    position: relative;
+} 
+span{
+    background:rgb(112, 195, 216);
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    z-index: -99;
+    border-radius: 25px;
+    transition: 0.3s;
+    left: 0;
+    top: 0;
+}
+ button:hover span{
+    width: 100%;   
+}
+ button:hover{
+    border: none;
+ }
+.p1 button a{
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-family: fantasy;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+  
+}
+.nav ul li a{
+    color: rgb(255, 240, 245);
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+   
+}
+.nav ul li::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background:rgb(233, 185, 54);
+    display: block;
+    transition: 0.3s;
+   
+}
+
+.nav ul li:hover::after{
+    width: 100%;
+    width:100%;
+
+}

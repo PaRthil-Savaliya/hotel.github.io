@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/booking1.css">
+    <link rel="stylesheet" href="../parthil/bootstrap.css">
+    <script src="../parthil/java/p_js.js"></script>
+   
+    <title>book A Stay</title> 
+</head>
+<body>
+    <div class="bg">
+       <div class="parthil">
+                 <header>
+            <h1 class="display-4">Hotel Empire </h1>
+       </header> 
+       <div class="nav">
+           <div class="p1">
+           <ul>
+                   <li><a href="hotel.html">Home</a></li>
+                   <li><a href="parthil.html" target="_blank">Dining</a></li>
+                   <li> <a href="contact.html">Contact Us</a></li>
+                   <li><a href="about.html">About Us </a></li>
+           </ul>
+        </div>
+    </div>
+  
+       </div><br>
+    <div class="container-fluid">
+    <div class="title">
+        <h2>BOOK   STAY </h2>
+    
+    <div class="container-fluid">
+        <form class="was-validated" name="form1"  onsubmit="return p()">
+            <div class="form-check-lable container-fluid">
+                <div class="form-group">
+                <label for="first name" class="text-white">FIRST NAME</label>
+                <input type="text" class="form-control" placeholder="ENTER FIRST NAME" id="p1" name="fname" required>
+                <div class="valid-feedback">VALID</div>
+                <div class="invalid-feedback">PLEASE ENTER YOUR DETAILS * </div>
+                <label for="last name" class="text-white">LAST NAME</label>
+                <input type="text" class="form-control" placeholder="ENTER LAST NAME" name="lname"required>
+                <div class="valid-feedback">VALID</div>
+                <div class="invalid-feedback">PLEASE ENTER YOUR DETAILS *</div>
+            </div>
+            </div>
+            <div class="container-fluid">
+               <label for="email" class="text-white">EMAIL</label>
+               <input type="email" class="form-control" placeholder="ENTER EMAIL ID" name="email"required>
+               <div class="valid-feedback">VALID</div>
+                <div class="invalid-feedback">PLEASE ENTER YOUR DETAILS PROPERLY*</div>
+            </div>
+            <div class="container-fluid">
+                <label for="mobile_no" class="text-white">MOBILE NO</label>
+                <input type="number" class="form-control" placeholder="ENTER MOBILE NO" name="mno"required>
+                <div class="valid-feedback">VALID</div>
+                <div class="invalid-feedback">PLEASE ENTER YOUR DETAILS PROPERLY*</div>
+             </div>
+             <div class="container-fluid">
+             <label for="check in date" class="text-white"> CHECK IN:--</label><br>
+             <input type="date" name="date" min="2021-09-15" required><br>
+             <div class="valid-feedback">VALID</div>
+                <div class="invalid-feedback">PLEASE ENTER YOUR DETAILS PROPERLY*</div>
+             <label for="check out date" class="text-white"> CHECK OUT:--</label><br>
+             <input type="date" name="date"  min="2021-09-16"  required>
+             <div class="valid-feedback">VALID</div>
+                <div class="invalid-feedback">PLEASE ENTER YOUR DETAILS PROPERLY*</div>
+             </div>
+             <div class="container-fluid" >
+                 <label for="adult" class="text-white">ADULT</label>
+                 <input type="number" class="form-control" name="adult" placeholder="ENTER TOTAL ADULT"required>
+                 <div class="valid-feedback">VALID</div>
+                <div class="invalid-feedback">PLEASE ENTER YOUR DETAILS PROPERLY*</div>
+                 <label for="CHILD" class="text-white">CHILD</label>
+                 <input type="number" class="form-control" name="child" placeholder="ENTER TOTAL CHILD" required>
+                 <div class="valid-feedback">VALID</div>
+                <div class="invalid-feedback">PLEASE ENTER YOUR DETAILS PROPERLY*</div>
+             </div><br>
+             <div class="container-fluid">
+                 <select name="room type" id="room type"required>
+                     <option value="1"class="text-dark" class="form-control" >Royal</option>
+                     <option value="2"class="text-dark" class="form-control"selected>VIP</option>
+                     <option value="3"class="text-dark"class="form-control">V.VIP</option>
+                     <div class="valid-feedback">VALID</div>
+                <div class="invalid-feedback">PLEASE ENTER YOUR DETAILS PROPERLY*</div>
+                 </select>
+             </div><br>
+             <div class="container-fluid">
+                 <label for="room" class="text-white">ROOMS</label>
+                 <input type="number" class="form-control" name="room" placeholder="ENTER ROOMS"required>
+                 <div class="valid-feedback">VALID</div>
+                <div class="invalid-feedback">PLEASE ENTER YOUR DETAILS PROPERLY*</div>
+             </div>    
+             <div class="container-fluid">
+                <button type="submit"class="btn-lg " value="submit">CHECK AVAILABLITIY</button> 
+             </div>
+             </div>
+            </form>
+    </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
